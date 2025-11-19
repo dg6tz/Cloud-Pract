@@ -14,20 +14,24 @@ Exam Domains & Weighting:
 • Security & Compliance (25%) - Shared Responsibility Model, security services
 • Technology (33%) - Core AWS services, global infrastructure
 • Billing & Pricing (16%) - Pricing models, cost optimization
+
 Test-Taking Strategy:
 • Eliminate Wrong Answers: Rule out 1-2 obviously incorrect options first
 • Real Services Only: All answers reference actual AWS services
 • Keyword Focus: Look for terms like "most cost-effective," "most secure," "highly available"
 • Avoid Extremes: Be wary of "always," "never," "manually"
 • Automation Preferred: Answers suggesting manual processes are usually incorrect
+
 Core Cloud Concepts
 Cloud Computing Definition:
 • On-demand delivery of IT resources over the internet
 • Pay-as-you-go pricing
 • Common resources: Compute, Storage, Database, Networking
+
 Cloud Deployment Models:
 • Cloud Provider (AWS): Purchases/manages hardware, global infrastructure
 • Consumer/Customer: Uses/pays for resources, configures virtual infrastructure
+
 Six Advantages of Cloud Computing:
 1. Trade capital expense (CapEx) for variable expense (OpEx)
 2. Benefit from massive economies of scale
@@ -35,21 +39,25 @@ Six Advantages of Cloud Computing:
 4. Increase speed and agility
 5. Stop spending money on data centers
 6. Go global in minutes
+
 Key Benefits:
 • Agility: Innovate and move faster
 • Scalability: Grow infrastructure on demand
 • Elasticity: Quickly add/remove resources
 • Reliability: Architecture performs as expected
 • Availability: Accessible when needed
+
 AWS Global Infrastructure
 Core Components:
 • Regions: Geographical locations with data center clusters (e.g., us-east-1)
 • Availability Zones (AZs): One or more physical data centers within a region
 • Edge Locations: Sites for caching data (used by CloudFront)
+
 Key Facts:
 • Each AZ is isolated with independent power, networking, connectivity
 • Multiple AZs provide fault tolerance within a region
 • Edge locations improve performance for end users
+
 AWS Well-Architected Framework
 Five Pillars:
 1. Operational Excellence
@@ -75,6 +83,8 @@ Five Pillars:
 • Adopt consumption model (pay for what you use)
 • Measure overall efficiency
 • Stop spending on data center operations
+
+
 Shared Responsibility Model
 AWS Responsibility (Security OF the Cloud):
 • Hardware/global infrastructure
@@ -86,6 +96,8 @@ Customer Responsibility (Security IN the Cloud):
 • Client and server-side encryption
 • Configuring virtual infrastructure
 • Operating system, network, firewall configuration
+
+
 Core AWS Services
 Compute Services:
 • EC2 (Elastic Compute Cloud): Virtual servers
@@ -98,6 +110,8 @@ Compute Services:
 • Elastic Load Balancers: Distribute traffic
 • ALB (Application Load Balancer): HTTP/HTTPS traffic
 • NLB (Network Load Balancer): TCP/UDP traffic, ultra low latency
+
+
 Storage Services:
 • S3 (Simple Storage Service): Object storage
 • Storage Classes:
@@ -109,12 +123,16 @@ Storage Services:
 • EBS (Elastic Block Store): Block storage for EC2
 • EFS (Elastic File System): Scalable file storage
 • Snow Family: Physical devices for data migration
+
+
 Database Services:
 • RDS (Relational Database Service): Managed SQL databases
 • DynamoDB: NoSQL database
 • Aurora: MySQL/PostgreSQL-compatible with high performance
 • Redshift: Data warehousing
 • ElastiCache: In-memory caching
+
+
 Networking & Content Delivery:
 • VPC (Virtual Private Cloud): Isolated network section
 • Subnets: Partitions within VPC (public/private)
@@ -124,6 +142,8 @@ Networking & Content Delivery:
 • CloudFront: Content Delivery Network (CDN)
 • Direct Connect: Physical connection to AWS
 • VPN: Virtual private network to AWS
+
+
 Security & Identity
 IAM (Identity and Access Management):
 • Users: End users requiring console/programmatic access
@@ -143,6 +163,8 @@ Encryption:
 • In Transit: SSL/TLS encryption
 • At Rest: Server-side encryption (S3, EBS, RDS)
 • Envelope Encryption: Data key encrypted by root key
+
+
 Management & Governance
 Management Tools:
 • AWS Management Console: Web-based UI
@@ -157,6 +179,8 @@ Governance:
 • AWS Config: Track resource configuration and compliance
 • CloudFormation: Infrastructure as code templates
 • Tags: Key-value pairs for cost management and organization
+
+
 Billing & Pricing
 Pricing Models:
 • Pay-as-you-go: Only pay for what you use
@@ -170,6 +194,8 @@ Cost Management Tools:
 TCO (Total Cost of Ownership):
 • Compare on-premises costs vs. cloud costs
 • Consider hardware, software, maintenance, personnel costs
+
+
 Support & Resources
 Support Plans:
 • Basic: Free, billing and account support only
@@ -181,6 +207,8 @@ Additional Resources:
 • AWS Marketplace: Third-party software solutions
 • Service Health Dashboard: AWS service status
 • Personal Health Dashboard: Alerts for your resources
+
+
 Key Service Definitions (Quick Reference)
 Compute:
 • EC2: Virtual servers
@@ -201,6 +229,8 @@ Security:
 • IAM: Identity and access management
 • KMS: Key management
 • CloudTrail: API logging
+
+
 Final Exam Preparation Tips
 1. Use Active Recall: Test yourself without looking at answers
 2. Practice with Hands-on Labs: Gain practical experience
